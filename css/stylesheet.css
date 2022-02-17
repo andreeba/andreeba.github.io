@@ -17,7 +17,7 @@ a:link {color: #fff; text-decoration: none;  }
 a:active {color: #fff; text-decoration: #2c98f0;}
 a:visited {color: #fff; text-decoration: none;}
 a:hover {color: #fff; text-decoration: #2c98f0; font-weight: bold; }
-a:hover {background-color: whitesmoke}
+a:hover {background-color: #F8B41F}
 
 a {
 	color: #2c98f0;
@@ -43,16 +43,16 @@ a {
 
 {
 	top: 0;
-  	left: 0;
-	 border-top-left-radius: 5px; 
+  	left: 0px;
 	padding-top: 2em;
   	padding-bottom: 1px;
-	left: 0px;
   	float:left;
   	position: fixed;
 	background: #f9bf3f;
 	width: 250px;
 	height: 100%;
+	border-right: 1px solid;
+	border-color: #F8B41F;
     }
 
 
@@ -90,7 +90,9 @@ a {
 	color: white;
     margin-bottom: .5em;
     display: block;
-    width: 100%; }
+    width: 100%;
+	background-color: #F8B41F
+}
 
 .main {
 	/* border-top-right-radius: 5px; */
