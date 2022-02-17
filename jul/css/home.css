@@ -1,0 +1,589 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kreon&family=Sevillana&display=swap');
+
+html {
+    overflow-x: hidden;
+}
+body {
+    background-color: #B21616;
+    font-family: Kreon;
+    font-size: 14px;
+    color: #fff;
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+    
+}
+
+@font-face {
+  font-family: Sevillana;
+  src: url(Sevillana-Regular.ttf);
+}
+
+@font-face {
+  font-family: Kreon;
+  src: url(Kreon-VariableFont_wght.ttf);
+}
+
+h1 {
+    font-family: 'Sevillana', cursive;
+    margin: 0;
+    font-size: 72px;
+    text-align: center;
+    color: #fff;
+    font-weight: normal;
+}
+
+h2 {
+    font-family: 'Sevillana', cursive;
+  font-size: 32px;
+  text-align: center;
+  color: #fff;
+  font-weight: normal;
+}
+h3{
+    font-weight: normal;
+    margin: 27px 0 0;
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Sevillana', cursive;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+a:link {color: #fff; text-decoration: none;  }
+
+a:active {color: #fbff0095; text-decoration: none; }
+
+
+a:visited {color: #fff; text-decoration: none;}
+
+a:hover {color: #fbff0095; text-decoration: none; }
+
+/* menu area start */
+.menu-box {
+    /*  meny plassering */
+    height: 89px;
+    width: 684px;
+    margin: 60px auto 10px;
+    position: fixed;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    bottom: 0px;
+    z-index: 101;
+    }
+
+.menu{
+    /* meny utsene */
+    background: #50722D;
+    width: 638px;
+    height: 55px;
+    display: flex;
+    margin: auto;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.menutext {
+    /* meny text settings */
+    text-shadow: 1px 0,5px rgba(255, 255, 255, 0.727);
+    margin: auto;
+    font-size: 18px;
+    font-family :kreon; 
+}
+.menuicon {
+    /* meny kranse position */
+border: 10px black hidden;
+position: absolute;
+right: 10px;
+top: -17px;
+height:89px;
+width: 80px;
+background: url(../bilder/animated-christmas-decoration-image-0016.gif);
+background-size: cover;
+}
+/* meny end */
+/* title area start */
+.title-container{
+    /* main container for title */
+    height: 360px;
+    width: 500px;
+    margin: auto auto 70px;
+}
+.htitle{
+    /* home + julehilsen title background */
+    position: absolute;
+    top: 200px;
+    left: 45%;
+    background-image: url(../bilder/christmas-floral.png);
+    background-size: cover;
+    opacity: 0.3;
+    width: 178px;
+    height: 178px;
+    margin: auto;
+}
+.ftitle{
+    /* før kristus title background  */
+        position: absolute;
+        top: 180px;
+        left: 45%;
+        background-image: url(../bilder/vegvisir-viking-kompass-gave-bestseller.png);
+        background-size: cover;
+        opacity: 0.3;
+        width: 178px;
+        height: 178px;
+        margin: auto;
+     
+}
+.mtitle{
+    /* moderne title background  */
+    position: absolute;
+    top: 180px;
+    left: 45%;
+    background-image: url(../bilder/Grab-An-Exceptional-Christmas-Decor-Option-For-The-Upcoming-Holiday-Season72.png.webp);
+    background-size: cover;
+    opacity: 0.3;
+    width: 178px;
+    height: 178px;
+    margin: auto;
+     
+}
+.title{
+    /* title text position */
+    position: absolute;
+    top: 210px;
+    left: 45%;
+    background-size: cover;
+
+    width: 178px;
+    height: 178px;
+    margin: auto;
+}
+
+/* title icon end */
+
+/* text content start */
+
+.container{
+    /* main container */
+margin: 0 auto  10px;
+max-width: 1000px;
+padding: 0 20px;
+}
+/*gir flex til kollonene*/
+.columns{
+    display: flex;
+
+}
+.himage-column{
+    /* column så holde bildene på home */
+    width: 400px;
+    margin: 0 auto 100px ;
+    border-top: orange 2px dotted;
+    padding: 0;
+}
+
+.htext-column{
+    /* text column på home */
+    width: 400px;
+
+    margin: 0 auto 50px ;
+}
+
+
+
+
+.title-text{
+    /* h3 positionering for førkristen + moderne */
+position: absolute;
+top: 75px;
+left: 3%;
+background-size: cover;
+width: 178px;
+height: 178px;
+margin: auto;
+}
+
+/* Klasse for hoved div med all tekst på forkristen.html */
+.jfmain {
+    font-family: Kreon;
+    margin: auto;
+    margin-top: 0px;
+    max-width: 750px;
+    position: center;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    margin-bottom: 100px;
+    
+  }
+  
+  /* Klasse for alle bilder på forkristen */
+.jfimg {
+    max-width: 100%;
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    border-radius: 1%;
+  }
+
+
+
+/* GJELDER MODERNE */
+
+
+
+/*holder teksten til høyre*/
+.main-content {
+    margin-right: 5%;
+}
+/*dytter teksten til høyre*/
+.col-left {
+    margin-left: 25px;
+}
+/*bakgrunnen skiftes til mørkerød når "julegave" knappen trykkes*/
+#overlay-julegaver {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(178, 22, 22, 0.5);
+}
+/*bakgrunnen skiftes til mørkerød når "juletrepynt" knappen trykkes*/
+#overlay-juletrepynt {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(178, 22, 22, 0.5);
+}
+/*bakgrunnen skiftes til mørkerød når "juleblomst" knappen trykkes*/
+#overlay-juleblomst {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(178, 22, 22, 0.5);
+}
+/*bakgrunnen skiftes til mørkerød når "julekaker" knappen trykkes*/
+#overlay-julekaker {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(178, 22, 22, 0.5);
+}
+
+
+
+/*knappen som åpner modal "julegaver"*/
+#open-modal-julegaver {
+    background-color: #ffcdbd;
+    color: #000000;
+    width: 147px;
+    height: 93px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 20px;
+    font-family: "Kreon";
+}
+/*knappen som lukker modal "julegaver"*/
+#close-modal-julegaver {
+    color: #000000;
+    font-size: 48px;
+    cursor: pointer;
+    border-style: none;
+    background-color: transparent;
+    position: absolute;
+    left: 45%;
+    bottom: 0px;
+    font-family: "Kreon";
+}
+/*knappen som åpner modal "juletrepynt"*/
+#open-modal-juletrepynt {
+    background-color: #ffcdbd;
+    color: #000000;
+    width: 147px;
+    height: 93px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 20px;
+    font-family: "Kreon";
+}
+/*knappen som lukker modal "juletrepynt"*/
+#close-modal-juletrepynt {
+    color: #000000;
+    font-size: 48px;
+    cursor: pointer;
+    border-style: none;
+    background-color: transparent;
+    position: absolute;
+    left: 45%;
+    bottom: 0px;
+    font-family: "Kreon";
+}
+/*knappen som åpner modal "juleblomst"*/
+#open-modal-juleblomst {
+    background-color: #ffcdbd;
+    color: #000000;
+    width: 147px;
+    height: 93px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 20px;
+    font-family: "Kreon";
+}
+/*knappen som lukker modal "juleblomst"*/
+#close-modal-juleblomst {
+    color: #000000;
+    font-size: 48px;
+    cursor: pointer;
+    border-style: none;
+    background-color: transparent;
+    position: absolute;
+    left: 45%;
+    bottom: 0px;
+    font-family: "Kreon";
+}
+/*knappen som åpner modal "julekaker"*/
+#open-modal-julekaker {
+    background-color: #ffcdbd;
+    color: #000000;
+    width: 147px;
+    height: 93px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 20px;
+    font-family: "Kreon";
+}
+/*knappen som lukker modal "julekaker"*/
+#close-modal-julekaker {
+    color: #000000;
+    font-size: 48px;
+    cursor: pointer;
+    border-style: none;
+    background-color: transparent;
+    position: absolute;
+    left: 45%;
+    bottom: 0px;
+    font-family: "Kreon";
+}
+/*Boksen som kommer opp og forteller deg om julegaver*/
+#modal-julegaver {
+    background-color: #ffcdbd;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    height: 500px;
+    text-align: center;
+    position: relative;
+    top: 20%;
+    border-radius: 10px;
+    font-family: "Kreon";
+}
+/*Boksen som kommer opp og forteller deg om juletrepynt*/
+#modal-juletrepynt {
+    background-color: #ffcdbd;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    height: 500px;
+    text-align: center;
+    position: relative;
+    top: 20%;
+    border-radius: 10px;
+    font-family: "Kreon";
+}
+/*Boksen som kommer opp og forteller deg om juleblomst*/
+#modal-juleblomst {
+    background-color: #ffcdbd;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    height: 500px;
+    text-align: center;
+    position: relative;
+    top: 20%;
+    border-radius: 10px;
+    font-family: "Kreon";
+}
+/*Boksen som kommer opp og forteller deg om julekaker*/
+#modal-julekaker {
+    background-color: #ffcdbd;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    height: 500px;
+    text-align: center;
+    position: relative;
+    top: 20%;
+    border-radius: 10px;
+    font-family: "Kreon";
+}
+/*bildet om er på bunnen av juletradisjoner i moderne tid*/
+.nativity {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 550px;
+    width: 950px;
+    margin-bottom: 100px;
+}
+
+/*Bildene brukt til modalene*/
+#julegaver-bildet {
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+}
+#juletrepynt-bildet {
+    width: 250px;
+    height: 350px;
+    padding: 20px;
+}
+#juleblomst-bildet {
+    width: 250px;
+    height: 350px;
+    padding: 20px;
+}
+#julekaker-bildet {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+}
+
+/*Tekstene i modalene*/
+.modaltekst {
+    color: black;
+    font-size: 14px;
+    font-family: "Kreon";
+}
+/*tittelene i modalene*/
+.modaltittel {
+    color: black;
+    font-family: 'Sevillana', cursive;
+    padding: 20px;
+}
+
+
+/* jule hilsen */
+.j-box {
+    margin: 0px auto 80px;
+  
+    width: 420px;
+    height: 521px;
+    background: #d10000;
+    border-radius: 10px;
+    border: none;
+    padding: 50px 25px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 10px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin-top: 100px;
+  }
+  /* Bilde over input boks */
+  .j-julepynt {
+    position: absolute;
+    left: 56%;
+    top: 420px;
+    width: 187px;
+    height: 225px;
+  }
+  
+
+  
+  input {
+    align-items: center;
+  }
+  input,
+  textarea {
+    width: 350px;
+  
+    padding: 0;
+    margin: 0;
+    resize: none;
+    font-size: 24px;
+    font-family: "Kreon";
+  }
+  
+  input:focus,
+  select:focus,
+  textarea:focus,
+  button:focus {
+    outline: none;
+  }
+   /* Style knap "Send" start */
+  .j-submit {
+    color: #000000;
+    background: #ffcdbd;
+    border: none;
+    border-radius: 10px;
+    width: 144px;
+    padding: 5px 35px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+  }
+  .j-submit:hover {
+    background: #50722d;
+    cursor: pointer;
+  }
+  .j-submit:focus {
+    background: #50722d;
+  }
+  
+  footer {
+    color: #fff;
+    background: #50722d;
+    position: relative;
+    margin-top: 100px;
+    font-family: "Kreon", serif;
+    text-align: left;
+    border-radius: 20px 20px 0 0;
+    box-shadow: #436125 5px 2px;
+  }
+    /* Style knap "Send" slutt */
+  div.j-columns {
+    column-gap: 100px;
+  }
+  .j-columns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .j-column {
+    margin: 15px;
+  }
+  
+  .j-boxbilder {
+    opacity: 0.7;
+  }
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -100;
+}

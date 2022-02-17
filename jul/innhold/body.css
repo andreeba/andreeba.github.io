@@ -1,0 +1,40 @@
+body {
+    background-color: #B21616;
+    font-family: Kreon;
+    font-size: 14px;
+    text-align: left;
+    color: #fff;
+    padding: 100px;
+    margin: 0px
+    
+}
+
+@font-face {
+  font-family: Sevillana;
+  src: url(Sevillana-Regular.ttf);
+}
+
+@font-face {
+  font-family: Kreon;
+  src: url(Kreon-VariableFont_wght.ttf);
+}
+
+h1 {
+    font: Sevillana;
+    font-size: 72px;
+    text-align: center;
+    color: #fff;
+    
+}
+
+h2 {
+  font: Sevillana;
+  font-size: 32px;
+  text-align: left;
+  color: #fff;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
