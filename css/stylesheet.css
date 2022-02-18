@@ -37,7 +37,13 @@ a {
  	display: border-box;
 	max-width: 1170px;
 	margin: 0 auto; }
-  
+
+@media screen and (max-width: 880px) {
+  .container {
+    font-size: 22px;
+  }
+}
+
 
  .navbar {
     display: none;
@@ -73,10 +79,13 @@ a {
 	border-radius: 10px;
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:880px) {
   .column {
     width: 100%;
-	}}
+	font-size: 20px;
+	}
+
+}
 
 .row:after {
   content: "";
