@@ -4,7 +4,6 @@
 body	{
 	font-family: "Quicksand", "Arial", sans-serif;
   	font-weight: 400;
-  	font-size: 15px;
   	line-height: 1.8;
  	color: #2c98f0; 
  	font-size: 16px; 
@@ -23,31 +22,19 @@ a:visited {color: #fff; text-decoration: none;}
 a:hover {color: #fff; text-decoration: #2c98f0; font-weight: bold; }
 a:hover {background-color: #F8B41F}
 
-a {
-	color: #2c98f0;
-	-webkit-transition: 0.5s;
- 	-o-transition: 0.5s;
- 	transition: 0.5s; }
-	a:hover, a:active, a:focus {
-    color: #2c98f0;
-    outline: none;
-    text-decoration: none; }
 
+/*
 .container {
  	display: border-box;
 	max-width: 1170px;
 	margin: 0 auto; }
+*/
 
-@media screen and (max-width: 880px) {
+/*@media screen and (max-width: 880px) {
   .container {
     font-size: 22px;
   }
-}
-
-
- .navbar {
-    display: none;
-}
+}*/
 
 .leftnav 
 
@@ -57,13 +44,37 @@ a {
 	padding-top: 2em;
   	padding-bottom: 1px;
   	float:left;
-  	position: fixed;
+  	position:fixed;
 	background: #f9bf3f;
 	width: 250px;
 	height: 100%;
 	border-right: 1px solid;
 	border-color: #F8B41F;
     }
+
+
+
+ul {
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+            outline: none;
+}
+
+ul a {
+	display: block;
+	padding-left: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-decoration: none;
+	-webkit-transition: 0.5s;
+ 	-o-transition: 0.5s;
+ 	transition: 0.5s; }
+	a:hover, a:active, a:focus {
+    color: #2c98f0;
+    outline: none;
+    text-decoration: none;
+}
 
 
 
@@ -79,13 +90,6 @@ a {
 	border-radius: 10px;
 }
 
-@media screen and (max-width:880px) {
-  .column {
-    width: 100%;
-	font-size: 20px;
-	}
-
-}
 
 .row:after {
   content: "";
@@ -107,7 +111,7 @@ a {
 }
 
 .main {
-	/* border-top-right-radius: 5px; */
+	 border-top-right-radius: 5px; 
 	text-align: left;
 	padding-top: 0.1em;
   	padding-bottom: 1px;
@@ -142,13 +146,7 @@ hr.three {
 }
 
 
-
-ul {
-	text-decoration: none;
-	list-style-type: none;
-            outline: none; }
-
-.logo {
+.mylogo {
     width: 150px;
     height: 150px;
     margin: 0 auto;
@@ -159,4 +157,168 @@ ul {
     border-radius: 50%;
     border: 3px solid white;}
 
+textarea {
+	min-width: 250px;
+  	min-height: 200px;
+	resize: both;
+}
 
+input {
+	min-width: 250px;
+  	min-height: 25px;
+	resize: both;
+}
+
+
+/* HEADER / LEFTNAV */
+
+.leftnav {
+  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+  position: fixed;
+  width: 250px;
+  z-index: 3;
+}
+
+.leftnav ul {
+  margin: 0;
+	display: block;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+	width: 100%;
+}
+
+.leftnav li a {
+  	padding-left: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+  text-decoration: none;
+}
+
+.leftnav li a:hover,
+.leftnav .menu-btn:hover {
+  background-color: #f4f4f4;
+}
+
+.leftnav .logo {
+  display: block;
+  float: left;
+  font-size: 2em;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+/* menu */
+
+.leftnav .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height .2s ease-out;
+}
+
+/* menu icon */
+
+.leftnav .menu-icon {
+  cursor: pointer;
+  float: left;
+  padding: 28px 0px 0px 20px ;
+  margin-top: 5px;
+  position: relative;
+  user-select: none;
+}
+
+.leftnav .menu-icon .nav-icon {
+  background: #333;
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background .2s ease-out;
+  width: 18px;
+}
+
+.leftnav .menu-icon .nav-icon:before,
+.leftnav .menu-icon .nav-icon:after {
+  background: #333;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+
+.leftnav .menu-icon .nav-icon:before {
+  top: 5px;
+}
+
+.leftnav .menu-icon .nav-icon:after {
+  top: -5px;
+}
+
+/* menu btn */
+
+.leftnav .menu-btn {
+  display: none;
+}
+
+.leftnav .menu-btn:checked ~ .menu {
+  max-height: 400px;
+}
+
+.leftnav .menu-btn:checked ~ .menu-icon .nav-icon {
+  background: transparent;
+}
+
+.leftnav .menu-btn:checked ~ .menu-icon .nav-icon:before {
+  transform: rotate(-45deg);
+  top:0;
+}
+
+.leftnav .menu-btn:checked ~ .menu-icon .nav-icon:after {
+  transform: rotate(45deg);
+  top:0;
+}
+
+
+@media (min-width: 50em) {
+  .leftnav li {
+    /*display: block;*/
+  }
+  .leftnav li a {
+    /*padding: 10px 10px;*/
+  }
+  .leftnav .menu {
+    clear: both;
+    float: left;
+    max-height: none;
+  }
+  .leftnav .menu-icon {
+    display: none;
+  }
+	
+}
+
+@media screen and (max-width:50em) {
+	
+	.mylogo {
+		display: none;
+	}
+	
+	.leftnav {
+	height: 100%;
+	background-color: #f9bf3f;
+	padding: 0;
+	margin: 0;
+	top: 0;
+		 transition: all 0.25s ease-in;
+	}
+	
+  .column {
+    width: 100%;
+	font-size: 20px;
+	  transition: all 0.25s ease-in;
+	}
+
+
+	
+}

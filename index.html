@@ -1,8 +1,9 @@
-<html>
+<!doctype html>
+<html lang ="no">
 <head>
 <meta charset="utf-8">
 	<title>Hjem - Portfolio - Andree Bårdsen</title>
-	<link href="css/stylesheet.css" rel="stylesheet"></a>
+	<link href="css/stylesheet.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Raleway&display=swap" rel="stylesheet">
@@ -10,16 +11,21 @@
 
 <body>
 	
-	<div class="container">
 	<div class="leftnav">
-	<div id="navbar">
-	<a href="index.html"><div class="logo" style="background-image: url(images/mylogo.png);"></div></a>
-	<h1 class="leftnavlogo">Andree Bårdsen</h1><ul>
+	<input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+	<a href="index.html"><div class="mylogo" style="background-image: url(images/mylogo.png);"></div></a>
+	
+	<h1 class="leftnavlogo">Andree Bårdsen</h1>
+	
+	<ul class="menu">
 	<li><a href="#about">Om meg</a></li>
 	<li><a href="#design">Design</a></li>
 	<li><a href="#programmering">Programmering</a></li>	
-	<li><a href="contact.html">Kontakt</a></li>	
-		</ul></div></div></div>
+	<li><a href="#kontakt">Kontakt</a></li>	
+	</ul>
+	
+	</div>
  <a id="about">&nbsp;</a>	
 	<div class="main">
 		
@@ -57,13 +63,36 @@
         <em><strong>Nettsider : </strong></em><strong></strong></p>
     	<p>&nbsp;</p>
    	  <p>&nbsp;</p>
-	</div><BR>
+	</div><br>
   <a id="programmering">&nbsp;</a>
 	<div class="column three">
 		
    	 <h2>Programmering</h2><hr class="three">
     	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
     	<p>&nbsp;</p>
+    	<p>&nbsp;</p>
+    	<p>&nbsp;</p>
+    	<p>&nbsp;</p>
+	</div><br>
+		<a id="kontakt">&nbsp;</a>
+	<div class="column four">
+		
+   	 <h2>Kontakt meg</h2><hr class="three">
+    	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+    	<p>&nbsp;</p>
+		<fieldset>
+			<legend>Send E-post:</legend>
+		<form action="https://formspree.io/f/xbjwoyba" method="POST">
+  <label>
+    Din e-post:<br>
+      <input type="email" name="email">
+  </label><br>
+  <label>
+    Beskjed:<br>
+      <textarea name="message"></textarea>
+  </label>  <br>
+<button type="submit">Send</button>
+</form></fieldset>
     	<p>&nbsp;</p>
     	<p>&nbsp;</p>
     	<p>&nbsp;</p>
@@ -74,5 +103,3 @@
 	
 </body>
 </html>
-
-
