@@ -23,18 +23,6 @@ a:hover {color: #fff; text-decoration: #2c98f0; font-weight: bold; }
 a:hover {background-color: #F8B41F}
 
 
-/*
-.container {
- 	display: border-box;
-	max-width: 1170px;
-	margin: 0 auto; }
-*/
-
-/*@media screen and (max-width: 880px) {
-  .container {
-    font-size: 22px;
-  }
-}*/
 
 .leftnav 
 
@@ -46,7 +34,7 @@ a:hover {background-color: #F8B41F}
   	float:left;
   	position:fixed;
 	background: #f9bf3f;
-	width: 250px;
+	width: 15.5em;
 	height: 100%;
 	border-right: 1px solid;
 	border-color: #F8B41F;
@@ -100,11 +88,27 @@ ul a {
 
 	
 .leftnavlogo {
+	margin: 0px;
+	padding: 0px;
     text-align: center;
     font-weight: 700;
     font-size: 22px;
 	color: white;
-    margin-bottom: .5em;
+    display: block;
+    width: 100%;
+	background-color: #F8B41F
+
+}
+
+.mobilemenu {
+	margin: 0px;
+	padding: 0px;
+	border-bottom: 1px solid;
+	border-color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 22px;
+	color: white;
     display: block;
     width: 100%;
 	background-color: #F8B41F
@@ -116,7 +120,7 @@ ul a {
 	padding-top: 0.1em;
   	padding-bottom: 1px;
 	margin-right: 20px;
-	left: 275px;
+	left: 14em;
 	height: 100%;
   	position: absolute;
     background-color: whitesmoke;}
@@ -149,8 +153,8 @@ hr.three {
 .mylogo {
     width: 150px;
     height: 150px;
-    margin: 0 auto;
-    margin-bottom: 30px;
+    margin: 10px auto 0px auto;
+    margin-bottom: 15px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -160,7 +164,7 @@ hr.three {
 textarea {
 	min-width: 250px;
   	min-height: 200px;
-	resize: both;
+	resize: none;
 }
 
 input {
@@ -173,9 +177,10 @@ input {
 /* HEADER / LEFTNAV */
 
 .leftnav {
-  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+	padding: 0px;
+	margin:0px;
   position: fixed;
-  width: 250px;
+  width: 13em;
   z-index: 3;
 }
 
@@ -222,7 +227,7 @@ input {
   cursor: pointer;
   float: left;
   padding: 28px 0px 0px 20px ;
-  margin-top: 5px;
+  margin-top: -7px;
   position: relative;
   user-select: none;
 }
@@ -293,32 +298,45 @@ input {
     max-height: none;
   }
   .leftnav .menu-icon {
-    display: none;
+    display: none; 
   }
 	
+  .column {
+    width: 100%;
+	  transition: all 0.5s ease-out;
+	}
+	
+	.mobilemenu {
+		display:none;
+	}
+
 }
 
 @media screen and (max-width:50em) {
 	
 	.mylogo {
-		display: none;
+		display:none;
 	}
 	
-	.leftnav {
-	height: 100%;
-	background-color: #f9bf3f;
-	padding: 0;
-	margin: 0;
-	top: 0;
-		 transition: all 0.25s ease-in;
-	}
 	
-  .column {
-    width: 100%;
+  .main {
 	font-size: 20px;
-	  transition: all 0.25s ease-in;
+	left: 8.8em;
+	  transition: all 0.5s ease-in;
 	}
 
+	.leftnav {
+		width: 10em;
+	}
+	
+	
+	.leftnavlogo {
+		display: none;
+	}
+
+	.leftnav .menu-icon {
+		margin-bottom: 0.6em;
+	}
 
 	
 }
