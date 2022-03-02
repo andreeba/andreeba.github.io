@@ -15,6 +15,7 @@ body	{
 
 h2 {
 	line-height: 1px;
+	letter-spacing: 3px;
 }
 
 
@@ -162,7 +163,7 @@ li:hover > .hrtrans {
 }*/
 
 hr.one {
-width: 6.2em;
+width: 7em;
 	height: 0.5px;
 	background-color: #F8B41F;
 	border: none;
@@ -171,7 +172,7 @@ width: 6.2em;
 }
 
 hr.two {
-	width: 5.2em;
+	width: 5.7em;
 	height: 0.5px;
 	background-color: #F8B41F;
 	border: none;
@@ -179,7 +180,7 @@ hr.two {
 }
 
 hr.three {
-	width: 11.5em;
+	width: 13.5em;
 	height: 0.5px;
 	background-color: #F8B41F;
 	border: none;
@@ -187,7 +188,7 @@ hr.three {
 }
 
 hr.four {
-	width: 9.5em;
+	width: 11.2em;
 	height: 0.5px;
 	background-color: #F8B41F;
 	border: none;
