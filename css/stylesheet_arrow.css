@@ -1,0 +1,245 @@
+.row-arrow {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.column-arrow {
+	background-color: #fff;
+	flex-direction: column;
+	justify-content:center;
+	display: flex;
+	flex-wrap: nowrap;
+
+	width:50%;
+	padding: 15px; }
+
+/*  # END # - CONTAINER / CONTENT FOR COLUMNS  */
+
+.arrowcontainer {
+	flex-wrap: wrap;
+	width: 100%;
+	height: 6px;
+}
+
+.arrowbg {
+
+	flex-wrap: wrap;
+	width: 100%;
+	height: 6px;
+	postition: relative;
+	background-color: whitesmoke;
+	border-radius: 5px;
+}
+
+
+/* ARROW 1 */
+.arrow {
+
+	flex-wrap: wrap;
+	width: 20%;
+	height: 6px;
+	margin: 1px 0px 0px 0px;
+	position: absolute;
+	border-radius: 5px;
+	background: #EC5453;
+}
+
+.dot {
+
+	width: 12px;
+	height: 12px;
+	margin: -3px 0px 0px 98% ;
+	background: #EC5453;
+	position: absolute;
+	border-radius: 50%;
+}
+
+/* Arrow 2 */
+
+.arrow-two {
+
+	flex-wrap: wrap;
+	width: 40%;
+	height: 6px;
+	margin: 1px 0px 0px 0px;
+	position: absolute;
+	border-radius: 5px;
+	background: #2C98F0;
+}
+
+.dot-two {
+
+	width: 12px;
+	height: 12px;
+	margin: -3px 0px 0px 98% ;
+	background: #2C98F0;
+	position: absolute;
+	border-radius: 50%;
+}
+
+/* Arrow 3 */
+
+.arrow-three {
+
+	flex-wrap: wrap;
+	width: 22%;
+	height: 6px;
+	margin: 1px 0px 0px 0px;
+	position: absolute;
+	border-radius: 5px;
+	background: #A84CB8;
+}
+
+.dot-three {
+
+	width: 12px;
+	height: 12px;
+	margin: -3px 0px 0px 98% ;
+	position: absolute;
+	border-radius: 50%;
+	background: #A84CB8;
+}
+
+/* Arrow 4 */
+
+.arrow-four {
+
+	flex-wrap: wrap;
+	width: 39%;
+	height: 6px;
+	margin: 1px 0px 0px 0px;
+	position: absolute;
+	border-radius: 5px;
+	background: #F9BF3F;
+}
+
+.dot-four {
+
+	width: 12px;
+	height: 12px;
+	margin: -3px 0px 0px 98% ;
+	position: absolute;
+	border-radius: 50%;
+	background: #F9BF3F;
+}
+
+/* Arrow 5 */
+
+.arrow-five {
+
+	flex-wrap: wrap;
+	width: 37%;
+	height: 6px;
+	margin: 1px 0px 0px 0px;
+	position: absolute;
+	border-radius: 5px;
+	background: #4054B2;
+}
+
+.dot-five {
+
+	width: 12px;
+	height: 12px;
+	margin: -3px 0px 0px 98% ;
+	position: absolute;
+	border-radius: 50%;
+	background: #4054B2;
+}
+
+/* Arrow 6 */
+
+.arrow-six {
+
+	flex-wrap: wrap;
+	width: 30%;
+	height: 6px;
+	margin: 1px 0px 0px 0px;
+	position: absolute;
+	border-radius: 5px;
+	background: #4054B2;
+}
+
+.dot-six {
+
+	width: 12px;
+	height: 12px;
+	margin: -3px 0px 0px 98% ;
+	position: absolute;
+	border-radius: 50%;
+	background: #4054B2;
+}
+
+/* Arrow 7 */
+
+.arrow-seven {
+
+	flex-wrap: wrap;
+	width: 34%;
+	height: 6px;
+	margin: 1px 0px 0px 0px;
+	position: absolute;
+	border-radius: 5px;
+	background: #F9BF3F;
+}
+
+.dot-seven {
+
+	width: 12px;
+	height: 12px;
+	margin: -3px 0px 0px 98% ;
+	position: absolute;
+	border-radius: 50%;
+	background: #F9BF3F;
+}
+
+/* Arrow 7 */
+
+.arrow-eight {
+
+	flex-wrap: wrap;
+	width: 22%;
+	height: 6px;
+	margin: 1px 0px 0px 0px;
+	position: absolute;
+	border-radius: 5px;
+	background: #2FA499;
+}
+
+.dot-eight {
+
+	width: 12px;
+	height: 12px;
+	margin: -3px 0px 0px 98% ;
+	position: absolute;
+	border-radius: 50%;
+	background: #2FA499;
+}
+
+
+
+
+/*  WHEN SITE IS AT OR ABOVE 50EM'S  */
+
+@media (min-width: 50em) {
+
+	
+/*.column {
+	width: 50%;
+	transition: all 0.5s ease-out; }
+}*/
+
+
+/*  WHEN SITE IS MINIMIZED BELOW 50EM'S  */
+
+@media screen and (max-width:50em) {
+	
+
+.main { 
+	margin-top: 55px;
+	left: 1em;
+	transition: all 0.5s ease-in;
+	font-size: 20px; }
+
+}
+}

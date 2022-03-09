@@ -1,0 +1,7 @@
+<svg id="Figma-logo" xmlns="http://www.w3.org/2000/svg" width="26.667" height="40" viewBox="0 0 26.667 40">
+  <path id="path0_fill" d="M6.667,213.333a6.669,6.669,0,0,0,6.667-6.667V200H6.667a6.667,6.667,0,1,0,0,13.333Z" transform="translate(0 -173.333)" fill="#0acf83"/>
+  <path id="path1_fill" d="M0,106.667A6.669,6.669,0,0,1,6.667,100h6.667v13.333H6.667A6.669,6.669,0,0,1,0,106.667Z" transform="translate(0 -86.667)" fill="#a259ff"/>
+  <path id="path1_fill_1_" d="M0,6.667A6.669,6.669,0,0,1,6.667,0h6.667V13.333H6.667A6.669,6.669,0,0,1,0,6.667Z" fill="#f24e1e"/>
+  <path id="path2_fill" d="M100,0h6.667a6.667,6.667,0,1,1,0,13.333H100Z" transform="translate(-86.667)" fill="#ff7262"/>
+  <path id="path3_fill" d="M113.333,106.667A6.667,6.667,0,1,1,106.667,100,6.669,6.669,0,0,1,113.333,106.667Z" transform="translate(-86.667 -86.667)" fill="#1abcfe"/>
+</svg>
