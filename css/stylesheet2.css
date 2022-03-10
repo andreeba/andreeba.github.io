@@ -14,12 +14,19 @@ body	{
 	background: whitesmoke; } 
 
 h2 {
-	line-height: 1px;
+	line-height: 1.6;
+	font-weight: 700;
+	font-size: 26px; 
+	font-family: "Quicksand", "Arial", sans-serif;
 	letter-spacing: 3px; }
 
+h1 {
+	line-height: 1.8;
+}
 hr {
 	width: 100%;
 	height: 0.5px;
+	line-height: 0px;
 	background-color: #F8B41F;
 	border: none;
 	margin-left: 0px; }
@@ -50,10 +57,10 @@ ul a {
 
 /*  LEFT MENUBAR  */
 
-.leftnav {
+.leftnav2 {
 	padding: 0px;
 	margin:0px;
-	width: 13em;
+	width: 13.05em;
     z-index: 3;
 	position: fixed;
   	float:left;
@@ -62,7 +69,7 @@ ul a {
 	border-right: 1px solid #F8B41F;
 	transition: all 0.5s ease-out; }
 
-.leftnav ul {
+.leftnav2 ul {
 	margin: 0;
 	display: block;
   	padding: 0;
@@ -70,22 +77,22 @@ ul a {
   	overflow: hidden;
 	width: 100%; }
 
-.leftnav li a {
+.leftnav2 li a {
   	padding-left: 20px;
 	padding-top: 5px;
 	padding-bottom: 5px;
     text-decoration: none;
 }
 
-.leftnav li a:hover,
-.leftnav .menu-btn:hover {
+.leftnav2 li a:hover,
+.leftnav2 .menu-btn:hover {
   background-color: #F8B41F;
 }
 
 .mylogo {
-    width: 150px;
-    height: 150px;
-    margin: 10px auto 0px auto;
+    width: 156px;
+    height: 156px;
+    margin: 10px 1.5em 0px 1.65em;
     margin-bottom: 15px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -104,7 +111,7 @@ ul a {
     width: 100%;
 	background-color: #F8B41F }
 
-.leftnav .menu {
+.leftnav2 .menu {
   clear: both;
   max-height: 0;
   height: 10em;
@@ -113,9 +120,9 @@ ul a {
 }
 
 
-/* LEFTNAV MENU ICON  / BUTTON WHEN RESIZED */
+/* leftnav2 MENU ICON  / BUTTON WHEN RESIZED */
 
-.leftnav .menu-icon {
+.leftnav2 .menu-icon {
   cursor: pointer;
   display: block;
   float: left;
@@ -124,7 +131,7 @@ ul a {
   position: relative;
   user-select: none; }
 
-.leftnav .menu-icon .nav-icon {
+.leftnav2 .menu-icon .nav-icon {
   background: #2c98f0;
   display: block;
   height: 2px;
@@ -132,8 +139,8 @@ ul a {
   transition: background .2s ease-out;
   width: 18px; }
 
-.leftnav .menu-icon .nav-icon:before,
-.leftnav .menu-icon .nav-icon:after {
+.leftnav2 .menu-icon .nav-icon:before,
+.leftnav2 .menu-icon .nav-icon:after {
   background: #2c98f0;
   content: '';
   display: block;
@@ -142,27 +149,27 @@ ul a {
   transition: all .2s ease-out;
   width: 100%; }
 
-.leftnav .menu-icon .nav-icon:before { top: 5px; }
+.leftnav2 .menu-icon .nav-icon:before { top: 5px; }
 
-.leftnav .menu-icon .nav-icon:after { top: -5px; }
+.leftnav2 .menu-icon .nav-icon:after { top: -5px; }
 
 /* BUTTON */
 
-.leftnav .menu-btn { display: none; }
+.leftnav2 .menu-btn { display: none; }
 
-.leftnav .menu-btn:checked ~ .menu { max-height: 400px; }
+.leftnav2 .menu-btn:checked ~ .menu { max-height: 400px; }
 
-.leftnav .menu-btn:checked ~ .menu-icon .nav-icon { background: transparent; }
+.leftnav2 .menu-btn:checked ~ .menu-icon .nav-icon { background: transparent; }
 
-.leftnav .menu-btn:checked ~ .menu-icon .nav-icon:before {
+.leftnav2 .menu-btn:checked ~ .menu-icon .nav-icon:before {
 	transform: rotate(-45deg);
   	top:0; }
 
-.leftnav .menu-btn:checked ~ .menu-icon .nav-icon:after {
+.leftnav2 .menu-btn:checked ~ .menu-icon .nav-icon:after {
 	transform: rotate(45deg);
   	top:0; }
 
-/* # END # - LEFTNAV MENU ICON  / BUTTON WHEN RESIZED */
+/* # END # - leftnav2 MENU ICON  / BUTTON WHEN RESIZED */
 /* # END # - LEFT MENUBAR  */
 
 
@@ -345,12 +352,12 @@ input {
 @media (min-width: 50em) {
 
 	
-.leftnav .menu {
+.leftnav2 .menu {
 	clear: both;
     float: left;
     max-height:none; }
 	
-.leftnav .menu-icon { display: none; }
+.leftnav2 .menu-icon { display: none; }
 	  
 .logotekstto { display: none; }
 	
@@ -378,7 +385,7 @@ input {
 	transition: all 0.5s ease-in;
 	font-size: 20px; }
 
-.leftnav { 
+.leftnav2 { 
 	width: 100%;
 	height: 45px; }
 
@@ -395,7 +402,7 @@ input {
 	border: 0;
 	font-size: 20px; }
 	
-.leftnav .menu-icon { 
+.leftnav2 .menu-icon { 
 	margin-left: 25px;
 	margin-top: -6px;
 	margin-bottom: 21px;
